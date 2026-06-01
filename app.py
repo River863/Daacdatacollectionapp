@@ -6,7 +6,7 @@ from datetime import date, datetime
 st.set_page_config(page_title="Sample Data Collection App", page_icon="📋", layout="wide")
 
 DATA_FILE = Path("sample_project_data.csv")
-ADMIN_CODE = "admin123"
+ADMIN_CODE = "Daac2026"
 
 def load_data():
     if DATA_FILE.exists():
